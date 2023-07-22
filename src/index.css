@@ -4,10 +4,10 @@
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
   
-  --color-golden: #DCCA87;
+  --color-silver: #838996;
   --color-black: #0C0C0C;
   --color-gray: #545454;
-  --color-crimson: #F5EFDB;
+  --color-crimson: #FDFDFD;
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
 }
@@ -17,6 +17,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
