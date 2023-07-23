@@ -7,11 +7,6 @@
     inset: 0;
 }
 
-.app__aboutus-overlay img {
-    width: 391px;
-    height: 415px;
-    z-index: 0;
-}
 
 .app__aboutus-content {
     width: 100%;
