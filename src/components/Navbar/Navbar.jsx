@@ -1,10 +1,10 @@
 import React from 'react';
-import { GiHamburgerMenu, GiHamburgerservices } from 'react-icons/gi';
-import { MdOutlineRestaurantMenu, MdOutlineRestaurantservices } from 'react-icons/md';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
 
-const services = () => {
+const Menu = () => {
   return ( 
     <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
       </div>
-      <services/>
+      <Menu/>
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">Log In / Registration</a>
         <div />
