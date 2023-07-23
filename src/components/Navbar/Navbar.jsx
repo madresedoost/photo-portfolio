@@ -11,7 +11,7 @@ const Menu = () => {
         <li className="p__opensans"><a href="#services">Services</a></li>
         <li className="p__opensans"><a href="#gallery">Gallery</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#contact">Contact</a></li>
+        <li className="p__opensans"><a href="#footer">Contact</a></li>
     </ul>
    ) 
 }
