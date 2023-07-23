@@ -4,32 +4,32 @@ const services = [
   {
     title: 'Portrait Photography',
     price: '$250',
-    tags: 'AU | Personal',
+    tags: 'Capturing Essence and Personality',
   },
   {
     title: 'Wedding Photography',
     price: '$560',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'Eternal Love Stories',
   },
   {
     title: 'Landscape Photography',
     price: '$300',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: "Nature's Timeless Beauty",
   },
   {
     title: 'Studio Photoshoot',
     price: '$200',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'Artistry in Controlled Settings',
   },
   {
     title: 'Architecture Photography',
     price: '$200',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: 'Capturing Structural Elegance',
   },
   {
     title: 'Product Photography',
     price: '$100',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: 'Perfect Product Shots',
   },
 ];
 

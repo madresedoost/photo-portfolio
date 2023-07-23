@@ -14,7 +14,7 @@ const Specialservices = () => (
       </div>
 
       <div className="app__services-text  flex__center">
-        <h1 className="headtext__cormorant">My Services</h1>
+        <h1 className="headtext__cormorant gradient__text gradient__text">My Services</h1>
         <div className="app__specialservices_services_items">
           { data.services.map((service, index) => (
             <ServicesItem key={service.title + index} title={service.title} price={service.price} tags={service.tags}/>

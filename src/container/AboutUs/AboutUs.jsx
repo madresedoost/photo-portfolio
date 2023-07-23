@@ -11,8 +11,8 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
-        <p className="p__opensans">At "Captured Moments," we believe in the power of visual storytelling. Our photography agency is dedicated to capturing the essence of life's most precious moments, turning them into timeless memories that you can cherish forever. </p>
+        <h1 className="headtext__cormorant gradient__text gradient__text">About Me</h1>
+        <p className="p__opensans">I believe in the power of visual storytelling. My agency is dedicated to capturing the essence of life's most precious moments, turning them into timeless memories that you can cherish forever. </p>
         <button type="button" className="custom__button">Know More</button>
       </div>
 
@@ -21,8 +21,8 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our Mission</h1>
-        <p className="p__opensans">Our mission is simple - to freeze fleeting moments in time and transform them into evocative images that tell unique and compelling stories. We pride ourselves on our ability to blend creativity and technical expertise to produce photographs that resonate with emotions and authenticity.</p>
+        <h1 className="headtext__cormorant gradient__text gradient__text">My Mission</h1>
+        <p className="p__opensans">My mission is simple - to freeze fleeting moments in time and transform them into evocative images that tell unique and compelling stories. I pride myself on my ability to blend creativity and technical expertise to produce photographs that resonate with emotions and authenticity.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
     </div>

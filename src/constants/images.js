@@ -1,13 +1,14 @@
 import bg from '../assets/bg.png';
 import ceo from '../assets/ceo.jpg';
 import G from '../assets/G.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
+import gallery01 from '../assets/gallery01.jpg';
+import gallery02 from '../assets/gallery02.jpg';
+import gallery03 from '../assets/gallery03.jpg';
+import gallery04 from '../assets/gallery04.jpg';
+import gallery05 from '../assets/gallery05.jpg';
+import gallery06 from '../assets/gallery06.jpg';
 import camera from '../assets/camera.png';
 import services from '../assets/services-img.jpg';
-import logo from '../assets/logo.png';
 import overlaybg from '../assets/overlaybg.png';
 import welcome from '../assets/welcome.jpg';
 import findus from '../assets/findus.png';
@@ -18,7 +19,7 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
-import gericht from '../assets/gericht.png';
+import logo from '../assets/logo.png';
 
 export default {
   bg,
@@ -29,8 +30,9 @@ export default {
   gallery02,
   gallery03,
   gallery04,
+  gallery06,
   camera,
-  logo,
+  gallery05,
   overlaybg,
   welcome,
   findus,
@@ -41,5 +43,5 @@ export default {
   award05,
   sign,
   quote,
-  gericht,
+  logo,
 };
