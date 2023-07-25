@@ -3,16 +3,23 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
-
+// import { Routes, Route, Link } from 'react-router-dom';
+// import Gallery from '../../Gallery';
 const Menu = () => {
   return ( 
-    <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
+    <div>
+      
+      <ul className="app__navbar-links">
+        <li className="p__opensans"><a href='#home'>Home</a></li>
         <li className="p__opensans"><a href="#services">Services</a></li>
-        <li className="p__opensans"><a href="#gallery">Gallery</a></li>
+        {/* <li className="p__opensans"><Link to='/gallery'>Gallery</Link></li> */}
         <li className="p__opensans"><a href="#about">About</a></li>
         <li className="p__opensans"><a href="#footer">Contact</a></li>
-    </ul>
+      </ul>
+      {/* <Routes>
+        <Route path='/gallery' element={<Gallery />}></Route>
+      </Routes> */}
+    </div>
    ) 
 }
 
@@ -20,6 +27,7 @@ const Navbar = () => {
   const [toggleservices, setToggleservices] = React.useState(false);
   return (
     <nav className="app__navbar">
+
       <div className="app__navbar-logo">
         <img src={images.logo} alt="app__logo" />
       </div>
