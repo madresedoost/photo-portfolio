@@ -3,6 +3,7 @@ import MainGallery from "./GalleryPage/MainGallery";
 import SubMenu from "./GalleryPage/SubMenu";
 import imageData from "./imageData";
 import { Navbar } from "./components";
+import { Footer } from "./container"
 
 
 
@@ -28,6 +29,7 @@ function GalleryPage() {
         onSelectCategory={handleSelectCategory} 
         />
         <MainGallery images={filteredImages} />
+        <Footer/>
       </div>
 
   )
