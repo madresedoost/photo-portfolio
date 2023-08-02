@@ -1,20 +1,20 @@
 import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Home from './Home';
+import GalleryPage from './GalleryPage';
 
-import { AboutUs, Me, Footer, Gallery, Header, Intro, Specialservices } from './container';
-import { Navbar } from './components';
-import './App.css';
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/gallery' element={<GalleryPage />}></Route>
+        </Routes>
 
-const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <Specialservices />
-    <Me />
-    <Intro />
-    <Gallery />
-    <Footer />
-  </div>
-);
+      </BrowserRouter>
+    </div>
+  )
+};
 
 export default App;

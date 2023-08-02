@@ -3,22 +3,20 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
-// import { Routes, Route, Link } from 'react-router-dom';
-// import Gallery from '../../Gallery';
+import { Link } from 'react-router-dom';
+
+
 const Menu = () => {
   return ( 
     <div>
       
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href='#home'>Home</a></li>
+        <li className="p__opensans"><Link to='/'>Home</Link></li>
         <li className="p__opensans"><a href="#services">Services</a></li>
-        {/* <li className="p__opensans"><Link to='/gallery'>Gallery</Link></li> */}
+        <li className="p__opensans"><Link to='/gallery'>Gallery</Link></li>
         <li className="p__opensans"><a href="#about">About</a></li>
         <li className="p__opensans"><a href="#footer">Contact</a></li>
       </ul>
-      {/* <Routes>
-        <Route path='/gallery' element={<Gallery />}></Route>
-      </Routes> */}
     </div>
    ) 
 }

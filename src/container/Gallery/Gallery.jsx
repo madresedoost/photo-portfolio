@@ -4,6 +4,7 @@ import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
+import { Link } from 'react-router-dom'
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -24,7 +25,7 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant gradient__text">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Welcome to my captivating image gallery, where visual stories come to life. Here, I invite you to embark on a journey through the lens, witnessing moments frozen in time, brimming with emotions, and celebrating life's beauty.</p>
-        <button type="button" className="custom__button">View More</button>
+        <button type="button" className="custom__button"><Link to='/gallery'>View Gallery</Link></button>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
