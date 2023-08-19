@@ -38,7 +38,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2023 JM. All Rights reserved.</p>
+      <p className="p__opensans">2023 JM. All Rights reserved.<br/> Built by Ifeanyi Aladi</p>
     </div>
 
   </div>
