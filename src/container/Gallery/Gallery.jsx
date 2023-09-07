@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 import { SubHeading } from '../../components';
@@ -7,7 +7,7 @@ import './Gallery.css';
 import { Link } from 'react-router-dom'
 
 const Gallery = () => {
-  const scrollRef = React.useRef(null);
+  const scrollRef = useRef(null);
 
   const scroll = (direction) => {
     const { current } = scrollRef;

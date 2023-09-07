@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MainGallery from "./GalleryPage/MainGallery";
-import SubMenu from "./GalleryPage/SubMenu";
+import CategoryMenu from "./GalleryPage/CategoryMenu";
 import imageData from "./imageData";
 import { Navbar } from "./components";
 import { Footer } from "./container"
@@ -21,9 +21,9 @@ function GalleryPage() {
   );
 
   return (
-      <div className="app">
+      <div>
         <Navbar />
-        <SubMenu
+        <CategoryMenu
         categories={categories}
         activeCategory={activeCategory}
         onSelectCategory={handleSelectCategory} 

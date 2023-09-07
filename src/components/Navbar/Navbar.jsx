@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import images from '../../constants/images';
@@ -22,7 +22,7 @@ const Menu = () => {
 }
 
 const Navbar = () => {
-  const [toggleservices, setToggleservices] = React.useState(false);
+  const [toggleservices, setToggleServices] = useState(false);
   return (
     <nav className="app__navbar">
 
@@ -31,16 +31,16 @@ const Navbar = () => {
       </div>
       <Menu/>
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleservices(true)} />
+        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleServices(true)} />
         {toggleservices && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdClose color="fff" fontSize={27} className="overlay__close" onClick={() => setToggleservices(false)} />
+            <MdClose color="fff" fontSize={27} className="overlay__close" onClick={() => setToggleServices(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li><a href="#home" onClick={() => setToggleservices(false)}>Home</a></li>
-              <li><a href="#Services" onClick={() => setToggleservices(false)}>Services</a></li>
-              <li><a href="#gallery" onClick={() => setToggleservices(false)}>Gallery</a></li>
-              <li><a href="#about" onClick={() => setToggleservices(false)}>About</a></li>
-              <li><a href="#contact" onClick={() => setToggleservices(false)}>Contact</a></li>
+              <li><a href="#home" onClick={() => setToggleServices(false)}>Home</a></li>
+              <li><a href="#Services" onClick={() => setToggleServices(false)}>Services</a></li>
+              <li><a href="#gallery" onClick={() => setToggleServices(false)}>Gallery</a></li>
+              <li><a href="#about" onClick={() => setToggleServices(false)}>About</a></li>
+              <li><a href="#contact" onClick={() => setToggleServices(false)}>Contact</a></li>
             </ul>
           </div>
         )}
