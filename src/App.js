@@ -1,20 +1,40 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Home from './Home';
-import GalleryPage from './GalleryPage';
+
+// Import the `startTransition` function from React
+import { startTransition } from 'react';
+
+const Home = lazy(() => import('./pages/Home'));
+const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/gallery' element={<GalleryPage />}></Route>
+          <Route
+            path="/"
+            element={
+              <Home
+                // Pass the `startTransition` function as a prop to the component
+                startTransition={startTransition}
+              />
+            }
+          />
+          <Route
+            path="/gallery"
+            element={
+              <GalleryPage
+                // Pass the `startTransition` function as a prop to the component
+                startTransition={startTransition}
+              />
+            }
+          />
         </Routes>
-
       </BrowserRouter>
+
     </div>
-  )
-};
+  );
+}
 
 export default App;

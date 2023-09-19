@@ -3,7 +3,6 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 
 
 const Menu = () => {
@@ -11,9 +10,9 @@ const Menu = () => {
     <div>
       
       <ul className="app__navbar-links">
-        <li className="p__opensans"><Link to='/'>Home</Link></li>
+        <li className="p__opensans"><a href='/'>Home</a></li>
         <li className="p__opensans"><a href="#services">Services</a></li>
-        <li className="p__opensans"><Link to='/gallery'>Gallery</Link></li>
+        <li className="p__opensans"><a href='/gallery'>Gallery</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
         <li className="p__opensans"><a href="#footer">Contact</a></li>
       </ul>
@@ -27,7 +26,7 @@ const Navbar = () => {
     <nav className="app__navbar">
 
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="app__logo" />
+        <a href='/'><img src={images.logo} alt="app__logo" /></a>
       </div>
       <Menu/>
       <div className="app__navbar-smallscreen">

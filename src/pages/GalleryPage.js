@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import MainGallery from "./GalleryPage/MainGallery";
-import CategoryMenu from "./GalleryPage/CategoryMenu";
-import imageData from "./imageData";
-import { Navbar } from "./components";
-import { Footer } from "./container"
+import MainGallery from "../GalleryPage/MainGallery";
+import CategoryMenu from "../GalleryPage/CategoryMenu";
+import imageData from "../imageData";
+import { Navbar } from '../components';
+import { Footer } from "../container"
 
 
 
