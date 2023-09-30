@@ -25,7 +25,7 @@
   
   
   /* 3x4 grid on desktop */
-  @media (max-width: 8px) {
+  @media (max-width: 2560px) {
     .gallery {
       grid-template-columns: repeat(3, 1fr);
     }
@@ -42,8 +42,9 @@
   }
   
 .submenu {
-    min-width: 1000px;
     display: flex;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch; 
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none; 
