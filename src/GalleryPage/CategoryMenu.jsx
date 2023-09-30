@@ -19,7 +19,7 @@ const CategoryMenu = ({ categories, activeCategory, onSelectCategory }) => {
 
   useEffect(() => {
     handleScroll();
-  }, [categories]);
+  }, []);
 
   return (
     <div className="submenu-wrapper">
