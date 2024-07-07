@@ -9,11 +9,10 @@ function Home() {
     <div>
       <Navbar />
       <Header />
-      <AboutUs />
+      <Gallery />
       <Specialservices />
       <Me />
       <Intro />
-      <Gallery />
       <Footer />
     </div>
 

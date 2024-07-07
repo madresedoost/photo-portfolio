@@ -6,7 +6,7 @@ const ServicesItem = ({ title, price, tags }) => (
   <div className="app__servicesitem">
     <div className="app__servicesitem-head">
       <div className="app__servicesitem-name">
-        <p className="p__cormorant" style={{ color: '#fff' }}>{title}</p>
+        <p className="p__cormorant" style={{ color: '#000000' }}>{title}</p>
       </div>
       <div className="app__servicesitem-dash" />
       <div className="app__servicesitem-price">

@@ -43,13 +43,23 @@
   margin-left: 2rem;
 }
 
+.app__wrapper_img2 {
+  flex: 1;
+  width: 100%;
+  display:contents;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 20rem;
+}
+
 .app__wrapper_img-reverse {
   justify-content: flex-start;
   margin-right: 2rem;
 }
 
 .app__wrapper_img img {
-  width: 80%;
+  width: 100%;
 }
 
 .custom__button {
@@ -69,7 +79,7 @@
 
 .p__cormorant {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: var(--color-black);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -88,6 +98,15 @@
   font-size: 16px;
 }
 
+.p__opensansw {
+  font-family: var(--font-alt);
+  color: var(--color-black);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
 .headtext__cormorant {
   font-family: var(--font-base);
   font-size: 64px;
@@ -95,7 +114,13 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
-
+.headtext__cormorantw {
+  font-family: var(--font-base);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
 .spoon__img {
   width: 45px;
 }
@@ -112,11 +137,19 @@
     line-height: 50px;
   }
 
+  .p__opensansw {
+    font-size: 30px;
+    line-height: 50px;
+  }
   .headtext__cormorant {
     font-size: 150px;
     line-height: 210px;
   }
 
+  .headtext__cormorantw {
+    font-size: 150px;
+    line-height: 210px;
+  }
   .spoon__img {
     width: 80px;
   }
@@ -158,6 +191,10 @@
   .p__opensans {
     font-size: 14px;
   }
+
+  .p__opensansw {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -165,11 +202,18 @@
     font-size: 12px;
   }
 
+  
+
   .p__cormorant {
     font-size: 19px;
   }
 
   .headtext__cormorant {
+    font-size: 45px;
+    line-height: 70px;
+  }
+
+  .headtext__cormorantw {
     font-size: 45px;
     line-height: 70px;
   }

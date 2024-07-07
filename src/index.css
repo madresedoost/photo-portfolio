@@ -10,16 +10,25 @@
   --color-crimson: #FDFDFD;
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
+  --color-mintcream: #f5fffa;
+  --color-steelblue: #4682b4;
+
 }
 
 .gradient__text {
   background: linear-gradient(120deg, #9999A1 0%, rgba(230, 230, 233, 0.84) 36.98%, rgba(244, 244, 246, 0.70) 93.75%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: var(--color-black);
   background-clip: text;
   color: transparent;
 }
-
+.gradient__text2 {
+  background: linear-gradient(120deg, #000000 0%, rgba(23, 23, 71, 0.84) 36.98%, rgba(22, 59, 46, 0.7) 93.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--color-white);
+  background-clip: text;
+  color: transparent;
+}
 body {
   background-color: var(--color-black);
 }

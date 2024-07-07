@@ -1,6 +1,6 @@
 .app__specialservices {
     flex-direction: column;
-    background: var(--color-black);
+    background: var(--color-mintcream);
 }
 
 .app__specialservices-title {
@@ -92,7 +92,7 @@
     }
     .app__specialservices-services_img {
         width: 100%;
-    }
+            }
 
     .app__specialservices-services_heading {
         font-size: 35px;

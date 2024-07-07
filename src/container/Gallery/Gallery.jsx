@@ -21,8 +21,8 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant gradient__text">Photo Gallery</h1>
+        <SubHeading title="Photoroller" />
+        <h1 className="headtext__cormorant gradient__text2">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Welcome to my captivating image gallery, where visual stories come to life. Here, I invite you to embark on a journey through the lens, witnessing moments frozen in time, brimming with emotions, and celebrating life's beauty.</p>
         <button type="button" className="custom__button"><a href='/gallery'>View Gallery</a></button>
       </div>

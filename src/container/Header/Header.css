@@ -1,6 +1,7 @@
 .app__header {
-    background-color: var(--color-black);
+    background-color: var(--color-mintcream);
     padding-bottom: 4rem;
+    width: 100%;
 }
 
 .app__header-h1 {
@@ -13,11 +14,18 @@
 }
 
 .app__header-img img {
-    width: 80%;
+    width: 100%;
 }
 
 @media screen and (min-width: 2000px) {
     .app__header-h1 {
+        font-size: 60px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .app__header-h2 {
         font-size: 160px;
         line-height: 210px;
     }
@@ -29,6 +37,12 @@
     }
 }
 
+@media screen and (max-width: 1450px) {
+    .app__header-h2 {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .app__header-h1 {
         font-size: 52px;
@@ -36,8 +50,22 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .app__header-h2 {
+        font-size: 20px;
+        line-height: 87px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .app__header-h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h2 {
         font-size: 40px;
         line-height: 55px;
     }
